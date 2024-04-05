@@ -38,7 +38,7 @@
 ```  
 
 ### features
-- [x] _This file is currently the most up-to-date for converting Kivy to APK using Google Colab and Buildozer, and it has been fully tested and works effectively._ at Date:4/5/2024
+- [x] _This file is currently the most up-to-date for converting Kivy to APK using Google Colab and Buildozer, and it has been fully tested and works effectively._ at **Date:4/5/2024**
 
 
 ### Reformat and check
@@ -53,4 +53,3 @@ Feel free to let me know if there are any problems or any request you have for t
 
 <h6 align="center">be kind with each other and share your problems solution to makes better world!</h6>
 <h5 align="center">just enjoy! 👋</h5>
- <u>این متن زیرخط دار است</u>
