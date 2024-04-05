@@ -1,6 +1,6 @@
 # kivy-to-apk-with-colab
 <h3 align="center">This repository contains a tool that converts python written code with the <strong>kivy framework</strong> into an application utilizing Google Colab and Buildozer </h3>
-<a href="https://colab.research.google.com/drive/1UmusJDXGtswvM5Bu9ikf6b_rYGklP4Hn?usp=sharing\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
+<a href="https://colab.research.google.com/drive/1UmusJDXGtswvM5Bu9ikf6b_rYGklP4Hn?usp=sharing\" target=\"_parent\"><img src="https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
 
 ---
 
@@ -10,6 +10,7 @@
 - [How to use](#How-to-us)
 - [Features](#features)
 - [Reformat and check](#reformat-and-check)
+- [Bugs or Opinion](#bugs-or-opinion)
 
 ### Built With
 <p> This section is the list of languages used in this project.</p>
