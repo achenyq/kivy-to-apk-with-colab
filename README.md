@@ -12,7 +12,7 @@
 
 ### Built With
 <p> This section is the list of languages used in this project.</p>
-<p>
+<p align="center" >
   <img src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="sqlite"  margin="20px" width="70" height="70"/>
 </p>
 
@@ -53,4 +53,4 @@ Feel free to let me know if there are any problems or any request you have for t
 
 <h6 align="center">be kind with each other and share your problems solution to makes better world!</h6>
 <h5 align="center">just enjoy! 👋</h5>
- 
+ <u>این متن زیرخط دار است</u>
