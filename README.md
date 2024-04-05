@@ -19,7 +19,7 @@
 
 ### How to use
 - To set up this tool, you just need to enter Google Colab and execute the commands step by step.The First step is to open the Google colab. Then import your python file and see to that you rename your file name(both python and .kv file)to “main.py and main.kv”.And also see to that you import all the necessary files such as images and .kv file.
-- Execute all commands until you reach the ‘!buildozer init’ command to creating “buildozer.spec” file to set the setting of project if you dont know how to complete this file there's a sample in here!
+- Execute all commands until you reach the ‘!buildozer init’ command to creating “buildozer.spec” file to set the setting of project if you dont know how to complete this file there's a sample in <a href="https://github.com/Novin1380/kivy-to-app-with-colab/blob/main/buildozer.spec">here!</a>
 ```bash
 !buildozer init
 ```
