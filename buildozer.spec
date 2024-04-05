@@ -10,12 +10,15 @@ package.name = ProMate
 package.domain = org.ProMate
 
 # (str) Source code where the main.py live
+# if you .spec file has different pattern with your main files you should change here
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
+# you should write type of files that you used in your project such as .pdf,.ttf(for fonts),.xlsx,.gif,.png and ...
 source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
+# Here you should write pattern of your files are in there for example if I have images in assets directory I should write "assets/images/*.png" 
 #source.include_patterns = assets/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
@@ -33,10 +36,13 @@ version = 0.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
+# here you can change this main.py name to what you python filename is
 # version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
+# Here you should write the requirements of your project 
+# Its better to write the version of libraries that you use 
 requirements = python3,kivy==2.2.0,kivymd==1.1.1
 
 # (str) Custom source folders for requirements
@@ -44,6 +50,8 @@ requirements = python3,kivy==2.2.0,kivymd==1.1.1
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
+# presplash is a image that appear in the loading screen for application to be ready to use 
+# It doesnt support gif files for animated presplash so you can use lottie files and json codes for making animated presplash screen
 #presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
@@ -60,7 +68,7 @@ orientation = portrait
 # OSX Specific
 #
 
-#
+# Here you should write your name for copyrights 
 # author = © Copyright Info
 
 # change the major version of python used by the app
@@ -81,6 +89,7 @@ fullscreen = 0
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
 # darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
 # olive, purple, silver, teal.
+# if you are using default presplash screen you can chnage background color here
 #android.presplash_color = #FFFFFF
 
 # (string) Presplash animation using Lottie format.
@@ -100,6 +109,8 @@ fullscreen = 0
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
+# //////////// these part is talking about version of android can use this application ////////////
+
 # (int) Target Android API, should be as high as possible.
 #android.api = 31
 
@@ -114,6 +125,9 @@ fullscreen = 0
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
+
+# //////////// End ////////////
+############ after this part the settings are for professional android developers that can use manifest and android specific files if you are beginner its better that you dont change these parts ############
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
