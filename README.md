@@ -51,7 +51,7 @@ Feel free to let me know if there are any problems or any request you have for t
 
 ---
 
-**_Notice:_** _If you are using this file please don't change it and let other peaples enjoy it_
+**_Notice:_** _If you are using this file please don't change it and let other peoples enjoy it_
 
 <h6 align="center">be kind with each other and share your problems solution to makes better world!</h6>
 <h5 align="center">just enjoy! 👋</h5>
