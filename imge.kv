@@ -1,0 +1,19 @@
+<ImgeAPP_1>
+    canvas:
+        Color:
+            rgba:( 1,0,0)
+
+        Rectangle:
+            source:'a.jpg'
+            pos:self.pos
+            size:self.size
+    Button:
+        size_hint:(None, None)
+        pos_hint:(None, None)
+        pos:150,200
+        size:400,300
+        source:'a.jpg'
+        text: 'Start recording'
+        rgba:( 1,1,1,1)
+        on_press: root.index_3(self),root.index_1(self)
+        on_release: root.bc(),root.index_3(self)
